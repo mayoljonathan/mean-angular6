@@ -14,7 +14,8 @@ var app = express();
 // MongoDB
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost:27017/mean-angular6', { promiseLibrary: require('bluebird') })
+// mongoose.connect('mongodb://localhost:27017/mean-angular6', { promiseLibrary: require('bluebird') })
+mongoose.connect('mongodb://admin:admin1@ds147659.mlab.com:47659/mean-angular6', { promiseLibrary: require('bluebird') })
   .then(() =>  console.log('mongoose: connection successful'))
   .catch((err) => console.error(err));
 
