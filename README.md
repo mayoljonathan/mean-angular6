@@ -7,6 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 http://jpsierens.com/tutorial-livereload-nodemon-gulp/
 
 
+<!-- TO ALLOW MONGODB Connection in Google Cloud Shell -->
+<!-- gcloud compute firewall-rules create allow-mongodb --allow tcp:27017 -->
+
 follow this link: http://thejackalofjavascript.com/mean-stack-hands-on-tutorial/
 npm i --save-dev gulp gulp-nodemon gulp-watch gulp-jshint gulp-livereload
 
