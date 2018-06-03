@@ -1,6 +1,17 @@
 # MeanAngular6
-
+Link: https://www.djamware.com/post/5a0673c880aca7739224ee21/mean-stack-angular-5-crud-web-application-example
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
+
+## Livereload
+<!-- USE THIS -->
+http://jpsierens.com/tutorial-livereload-nodemon-gulp/
+
+
+follow this link: http://thejackalofjavascript.com/mean-stack-hands-on-tutorial/
+npm i --save-dev gulp gulp-nodemon gulp-watch gulp-jshint gulp-livereload
+
+<!-- UNUSED -->
+<!-- npm install --save-dev nodemon webpack-dev-server webpack-cli -->
 
 ## Development server
 
